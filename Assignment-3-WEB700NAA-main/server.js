@@ -1,16 +1,14 @@
-/********************************************************************************
-* WEB700 – Assignment 06
-*
-* I declare that this assignment is my own work in accordance with Seneca's
-* Academic Integrity Policy:
-*
-* https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
-*
-* Name: Harmon Tuazon Student ID: 165229220 Date: 07-29-2025
-*
-* Published URL: https://assignment-3-web-700-naa.vercel.app/
-*
-********************************************************************************/
+// * 
+// *  I declare that this assignment is my own work in accordance with Seneca's
+// *  Academic Integrity Policy:
+// * 
+// *  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+// * 
+// *  Name: Zeinab Mohamed      Student ID: 123970246      Date: 6th July 2025
+// *
+// *  Published URL: https://your-deployed-vercel-url.vercel.app
+// *
+// ********************************************************************************/
 
 const LegoData = require("./modules/legoSets")
 const legoData = new LegoData()
