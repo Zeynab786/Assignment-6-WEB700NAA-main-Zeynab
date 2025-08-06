@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Lego Collection</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/theme.css">
+</head>
+
+<body>
+	<%- include('partials/navbar', {page: '/about'}) %>
+	
+	<br />
+
+	<div class="container">
+		<div class="row">
+			<main class="col-md-12">
+                <section class="content-section section-dark">
+                    <div class="container">
+						<div class="about-container">
+							<h1 class="display-5 fw-bold">About</h1>
+							<p>Everything you want to know about me - the designer & developer.</p>
+						</div>
+						<p>
+							Hello everyone! My name is Harmon. I am BTT student in Seneca Polytechnic striving to become 
+							a System Administrator and/or Cloud Developer. In this moment, I have experience related to 
+							scripting, networking, helpdesk support, etc. I am passionate about all things Linux.
+						</p>
+					  </div>
+                </section>
+				<section class="content-section section-dark">
+					<div>
+						<h2>Theme Demo</h2>
+						<p>This is a theme demo section for Assignment 4</p>
+					</div>
+					
+					<h3>Tables</h3>
+
+					<div>
+						<table class="table">
+							<caption style="color:antiquewhite;">My Favorite Tech Stack</caption>
+							<thead style="background-color:  #E95420;">
+	
+							<tr>
+								<th scope="col">Stack</th>
+								<th scope="col">Technology</th>
+								<th scope="col">Use Case</th>
+								<th scope="col">Logo</th>
+							</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row" rowspan="4">
+										LAMP STACK
+									</th>
+								</tr>
+								<tr>
+									<td>Ubuntu Linux</td>
+									<td>Operating System</td>
+									<td><img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Ubuntu_logo_orange.png" alt="Ubuntu Logo" style="width: 50px; height: auto;"></td>
+								</tr>
+								<tr>
+									<td>MySQL</td>
+									<td>Database Management System</td>
+									<td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/1024px-MySQL_logo.svg.png" alt="MySQL Logo" style="width: 50px; height: auto;"></td>
+								</tr>
+								<tr>
+									<td>Apache</td>
+									<td>Web Server</td>
+									<td><img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Apache_HTTP_server_logo_%282019-present%29.svg/720px-Apache_HTTP_server_logo_%282019-present%29.svg.png?20220805205621" alt="Apache Logo" style="width: 50px; height: auto;"></td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td style="text-align: center; background-color:  #E95420;" colspan="4">Updated: June 2025</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+						<br />
+					<div>
+						<table class="table">
+							<caption style="color:antiquewhite;">My Favorite Tech Stack Pt. 2</caption>
+							<thead>
+							<tr>
+								<th scope="col">Stack</th>
+								<th scope="col">Technology</th>
+								<th scope="col">Use Case</th>
+								<th scope="col">Logo</th>
+							</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row" rowspan="4">
+										MERN STACK
+									</th>
+								</tr>
+								<tr>
+									<td>MongoDB</td>
+									<td>Database Management System NoSQL</td>
+									<td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MongoDB_Fores-Green.svg/1024px-MongoDB_Fores-Green.svg.png" alt="MongDB Logo" style="width: 50px; height: auto;"></td>
+								</tr>
+								<tr>
+									<td>React</td>
+									<td>Front0-End Library</td>
+									<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png" alt="React Logo" style="width: 50px; height: auto;"></td>
+								</tr>
+								<tr>
+									<td>Node and Express JS</td>
+									<td>Back-End and Web Server</td>
+									<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png" alt="Node JS Logo" style="width: 50px; height: auto;"></td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td style="text-align:center; background-color:  #E95420;" colspan="4">Updated: June 2025</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+				<section class="content-section section-light">
+					<div>
+						<h3 style="color: black;">List Section</h3>
+					</div>
+					<div>
+						<h4 style="color: black;">Personal Hobbies</h4>
+						<ul class="list">
+							<li>Hiking</li>
+							<li>Running</li>
+							<li> Brewing Hot Drinks
+								<ol type="A">
+									<li>Coffee</li>
+									<li>Tea</li>
+									<li>Soda</li>
+								</ol>
+							</li>
+							<li>Food Reviewing</li>
+							<li>Free Diving</li>
+						</ul>
+					</div>
+					<p>This section makes a list of the some hobbies I do</p>
+				</section>
+				<section class="content-section section-dark">
+					<div>
+						<h3>Images Section</h3>
+					</div>
+					<div style>
+						<h4>Favorite Food</h4>
+						<img class="food" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1280px-Pizza-3007395.jpg" alt="Pizza">
+						<img class="food" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg/1024px-Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg" alt="Ramen">	
+						<img class="food" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1280px-Glazed-Donut.jpg" alt="Donuts">	
+					</div>
+					<p>This section  is the images section of the assignment.</p>
+				</section>
+				<section class="content-section section-light">
+					<div>
+						<h3 style="color: black;">Audio Section</h3>
+					</div>
+					<div>
+						<h4 style="color: black;">Audio</h4>
+						 <audio controls>
+								<source src="https://pat-crawford-sdds.netlify.app/shared/winter-2025/web700/A4/sample-audio.mp3" type="audio/mpeg">
+						</audio>
+					</div>
+					<p>This section  is the audio section of the assignment.</p>
+				</section>
+				<section class="content-section section-dark">
+					<div>
+						<h3>Video Section</h3>
+					</div>
+					<div>
+						<h4>Video</h4>
+						<div class="text-center">
+							<video controls width="640">
+								<source src="https://pat-crawford-sdds.netlify.app/shared/winter-2025/web700/A4/sample-video.mp4" type="video/mp4">
+							</video>
+							
+							<p>This section  is the video section of the assignment.</p>
+
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
